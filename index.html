@@ -318,8 +318,8 @@
 
     <script>
         // ================= CLOUDINARY CONFIGURATION =================
-        const CLOUD_NAME = 'tbc6fx9q'
-        const UPLOAD_PRESET = 'tbc6fx9q';
+        const CLOUD_NAME = 'flipped_video'
+        const UPLOAD_PRESET = 'flipped_video';
         // ============================================================
 
         const arabicPartNames = ['الأولى', 'الثانية', 'الثالثة', 'الرابعة', 'الخامسة', 'السادسة'];
@@ -391,7 +391,7 @@
             const file = e.target.files[0];
             if (file && file.type.startsWith('video/')) {
                 
-                if(CLOUD_NAME === 'tbc6fx9qا' || CLOUD_NAME.trim() === '') {
+                if(CLOUD_NAME === 'flipped_video' || CLOUD_NAME.trim() === '') {
                     alert('تنبيه: يجب تغيير قيمة CLOUD_NAME في الكود إلى اسم سحابتك ليعمل الرفع.');
                     return;
                 }
